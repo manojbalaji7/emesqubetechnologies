@@ -1,0 +1,4 @@
+import { SectionHeading } from "@/components/SectionHeading";
+export const metadata = { title: "Testimonials" };
+const reviews=[['Reliable delivery','EMES Qube understood our requirement and created a professional digital solution.'],['Great communication','The team made the process clear and delivered a clean, responsive experience.'],['Business focused','They suggested practical improvements that helped us present our services better.']];
+export default function TestimonialsPage(){return <main className="section-y"><div className="container-px mx-auto max-w-6xl"><SectionHeading eyebrow="Testimonials" title="Trusted by growing businesses"/><div className="grid gap-6 md:grid-cols-3">{reviews.map(([t,b])=><blockquote key={t} className="rounded-3xl border border-slate-100 p-7 shadow-soft"><strong className="text-slate-950">{t}</strong><p className="mt-4 text-sm leading-6 text-slate-600">“{b}”</p></blockquote>)}</div></div></main>}

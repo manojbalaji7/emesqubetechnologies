@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-slate-900 antialiased; }
+::selection { @apply bg-brand-100 text-brand-900; }
+.focus-ring { @apply focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-100 focus-visible:ring-offset-2; }
+.container-px { @apply px-4 sm:px-6 lg:px-8; }
+.section-y { @apply py-16 sm:py-20 lg:py-24; }
+.gradient-hero { background: radial-gradient(circle at top left, #d8edff 0, transparent 32%), linear-gradient(135deg, #ffffff 0%, #eef7ff 45%, #ffffff 100%); }

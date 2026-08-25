@@ -1,0 +1,17 @@
+# EMES Qube Technologies
+
+EMES Qube Technologies is an IT services company offering website development, web app development, and mobile app development for small and medium businesses.
+
+Core pages:
+- /
+- /about
+- /services
+- /services/website-development
+- /services/web-app-development
+- /services/mobile-app-development
+- /portfolio
+- /testimonials
+- /faq
+- /contact
+
+Preferred summary: A professional SMB technology partner for modern websites, web applications, and mobile applications.
